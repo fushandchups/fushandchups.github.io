@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://fushandchups.github.io/posts/site-build/</loc>
+    <lastmod>2020-04-25T15:12:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/posts/</loc>
+    <lastmod>2020-04-25T15:12:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/posts/my-first-animation/</loc>
+    <lastmod>2020-04-17T21:16:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/posts/first-post/</loc>
+    <lastmod>2020-04-17T17:15:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/tags/stop-motion/</loc>
+    <lastmod>2020-04-17T17:15:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/tags/</loc>
+    <lastmod>2020-04-17T17:15:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/about/</loc>
+    <lastmod>2020-04-17T17:15:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/</loc>
+    <lastmod>2020-04-17T17:15:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fushandchups.github.io/categories/</loc>
+  </url>
+  
+</urlset>

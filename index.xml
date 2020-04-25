@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fush &amp; Chups</title>
+    <link>https://fushandchups.github.io/</link>
+    <description>Recent content on Fush &amp; Chups</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Apr 2020 17:15:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://fushandchups.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making the website</title>
+      <link>https://fushandchups.github.io/posts/site-build/</link>
+      <pubDate>Sat, 25 Apr 2020 15:12:44 -0400</pubDate>
+      
+      <guid>https://fushandchups.github.io/posts/site-build/</guid>
+      <description>First off I used Jekyll to create a static site. I chose hyde as theme because I liked the fixed side bar and minimal design. I used github pages to host the site. After playing with Jekyll a bit and having some trouble with ruby on my Mac, I swapped to using Hugo rather than Jekyll.
+Creating a new site and initializing a git repository:
+hugo new site fushandchups cd fushandchups git init I use one respository for the site creation, which is private.</description>
+    </item>
+    
+    <item>
+      <title>My First Animation</title>
+      <link>https://fushandchups.github.io/posts/my-first-animation/</link>
+      <pubDate>Fri, 17 Apr 2020 21:16:37 -0400</pubDate>
+      
+      <guid>https://fushandchups.github.io/posts/my-first-animation/</guid>
+      <description>Here we go:
+I uploaded the mp4 to youtube, mostly because I can&amp;rsquo;t get the embeded video to work with hugo/linux/firefox. Here is my first second of animation
+  </description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://fushandchups.github.io/posts/first-post/</link>
+      <pubDate>Fri, 17 Apr 2020 17:15:28 -0400</pubDate>
+      
+      <guid>https://fushandchups.github.io/posts/first-post/</guid>
+      <description>Stop Motion Animation Here is my equipment:
+ 12 year old Cannon DSLR 12 year old thinkpad  The camera is Canon Rebel XS. Rebel! To control the camera remotely I use a latop. The laptop is a 2008 thinkpad running Linux Mint. I use Entangle to control the camera. Entangle lets you view the live preview of the camera, which is great for setting up shots. The camera I have does not have live preview on the LCD screen.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://fushandchups.github.io/about/</link>
+      <pubDate>Fri, 17 Apr 2020 17:15:00 -0400</pubDate>
+      
+      <guid>https://fushandchups.github.io/about/</guid>
+      <description>Here is my blog for Coronavirus lock down messing about</description>
+    </item>
+    
+  </channel>
+</rss>

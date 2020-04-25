@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stop motion on Fush &amp; Chups</title>
+    <link>https://fushandchups.github.io/tags/stop-motion/</link>
+    <description>Recent content in Stop motion on Fush &amp; Chups</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Apr 2020 17:15:28 -0400</lastBuildDate>
+    
+	<atom:link href="https://fushandchups.github.io/tags/stop-motion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>https://fushandchups.github.io/posts/first-post/</link>
+      <pubDate>Fri, 17 Apr 2020 17:15:28 -0400</pubDate>
+      
+      <guid>https://fushandchups.github.io/posts/first-post/</guid>
+      <description>Stop Motion Animation Here is my equipment:
+ 12 year old Cannon DSLR 12 year old thinkpad  The camera is Canon Rebel XS. Rebel! To control the camera remotely I use a latop. The laptop is a 2008 thinkpad running Linux Mint. I use Entangle to control the camera. Entangle lets you view the live preview of the camera, which is great for setting up shots. The camera I have does not have live preview on the LCD screen.</description>
+    </item>
+    
+  </channel>
+</rss>
