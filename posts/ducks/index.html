@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.69.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ducks &middot; Fush &amp; Chups</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://fushandchups.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://fushandchups.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://fushandchups.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://fushandchups.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-h ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://fushandchups.github.io/"><h1>Fush &amp; Chups</h1></a>
+      <p class="lead">
+       Animation and drawing 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://fushandchups.github.io/">Home</a> </li>
+        <li><a href="/about/"> About </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2020. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Ducks</h1>
+  <time datetime=2020-04-26T11:42:03-0400 class="post-date">Sun, Apr 26, 2020</time>
+  <p>Using Van Aken Claytoon modeling clay.  Making these ducks turned my hands yellow.  Playing with Entangle to set up the shot. The shots for the animation had these settings:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exposure Time</td>
+<td>1 second</td>
+</tr>
+<tr>
+<td>Aperture value</td>
+<td>f/5.0</td>
+</tr>
+<tr>
+<td>ISO Speed Rating</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Metering Mode</td>
+<td>Pattern</td>
+</tr>
+<tr>
+<td>Focal Length</td>
+<td>39.0 mm</td>
+</tr>
+</tbody>
+</table>
+<p>There are 14 pictures in the animation.  I used 10 frames frames per second to make ducks.</p>
+<pre><code>ffmpeg -r 10 -f image2 -s 1920x1080 -start_number  18 -i film%06d.jpg -vcodec libx264 -crf 25  -pix_fmt yuv420p ducks.mp4
+</code></pre><p>Here is the result</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/3Wef-P6AqIM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Playing around with the frames per second. Here is 20 frames per second</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/jgE-lCrtY0U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>The left duck moves out of focus as it moves towards the camera.  Refocusing is something I am going to have to think about when the characters move towards or away from the camera.</p>
+
+</div>
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
