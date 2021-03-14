@@ -53,6 +53,17 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
+    <a href="https://fushandchups.github.io/posts/squares/">Dancing Squares</a>
+  </h1>
+  <time datetime="2021-03-14T13:14:55-0600" class="post-date">Sun, Mar 14, 2021</time>
+  Loop of hand drawn squares
+10 frames per second.
+ffmpeg -r 10 -f image2 -start_number 4 -s 1920x1080 -i film%06d.jpg -vcodec libx264 -crf 18 -pix_fmt yuv420p squares.mp4     Changing cfr
+ ffmpeg -r 10 -f image2 -start_number 4 -s 1920x1080 -i film%06d.jpg -vcodec libx264 -crf 25 -pix_fmt yuv420p squares_crf25.mp4     Looping:
+ffmpeg -i squares_crf.mp4 -filter_complex &quot;loop=loop=10:size=20:start=0&quot; -pix_fmt yuv420p squares_loop2.mp4    
+  
+</article><article class="post">
+  <h1 class="post-title">
     <a href="https://fushandchups.github.io/posts/cat-flower/">Cat Flower</a>
   </h1>
   <time datetime="2021-03-13T15:28:58-0700" class="post-date">Sat, Mar 13, 2021</time>

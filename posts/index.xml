@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Fush &amp; Chups</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Mar 2021 15:28:58 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Mar 2021 13:14:55 -0600</lastBuildDate>
     
 	<atom:link href="https://fushandchups.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dancing Squares</title>
+      <link>https://fushandchups.github.io/posts/squares/</link>
+      <pubDate>Sun, 14 Mar 2021 13:14:55 -0600</pubDate>
+      
+      <guid>https://fushandchups.github.io/posts/squares/</guid>
+      <description>Loop of hand drawn squares
+10 frames per second.
+ffmpeg -r 10 -f image2 -start_number 4 -s 1920x1080 -i film%06d.jpg -vcodec libx264 -crf 18 -pix_fmt yuv420p squares.mp4     Changing cfr
+ ffmpeg -r 10 -f image2 -start_number 4 -s 1920x1080 -i film%06d.jpg -vcodec libx264 -crf 25 -pix_fmt yuv420p squares_crf25.mp4     Looping:
+ffmpeg -i squares_crf.mp4 -filter_complex &amp;quot;loop=loop=10:size=20:start=0&amp;quot; -pix_fmt yuv420p squares_loop2.mp4    </description>
+    </item>
     
     <item>
       <title>Cat Flower</title>
